@@ -1,0 +1,29 @@
+.bannerContent{
+    height: 40%;
+}
+
+.bannerContent h1{
+    font-size: 4em;
+}
+
+.contentBoxes div{
+    padding: 100px;
+}
+
+.cherry div, .tangerine div{
+    padding: 0 50px 40px;
+}
+
+.testimonials{
+    height: 200vh;
+}
+
+.people > div{
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.people > div p:first-of-type{
+    line-height: 1.5;
+}

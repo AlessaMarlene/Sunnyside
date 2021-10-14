@@ -1,0 +1,126 @@
+@viewport{
+    zoom: 1;
+    width: device-width;
+}
+
+.menu{
+    padding: 50px;
+}
+
+.menu h2{
+    font-size: 3.5em;
+}
+
+.menu > div{
+    position: relative;
+    width: 100vw;
+}
+
+.items{
+    display: none;
+    height: 100%;
+    background-color: var(--bs-blue);
+}
+
+.items ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.items ul li{
+    padding: 40px 0 40px 0;
+    font-size: 2em;
+}
+
+.items ul li:last-child{
+    background-color:inherit;
+    color: white;
+    padding: 40px 0 40px 0;
+    margin-left: inherit;
+}
+
+.hamburguer{
+    display: block;
+}
+
+.bannerContent{
+    top: 40%;
+    height: 45%;
+}
+
+.bannerContent h1{
+    font-size: 6.2em;
+}
+
+.bannerContent img{
+    width: 50px;
+    height: 130px;
+}
+
+.mainContent{
+    height: 140vh;
+}
+
+.mainContent:first-of-type{
+    flex-direction: column-reverse;
+}
+
+.mainContent:nth-of-type(2), .mainContent:nth-of-type(3){
+    flex-direction: column;
+}
+
+.contentBoxes div{
+    text-align: center;
+}
+
+.contentBoxes div, .cherry, .tangerine, .testimonials, .footer{
+    font-size: 1.8em;
+}
+
+.contentBoxes div h3{
+    align-self: center;
+}
+
+.cherry, .tangerine{
+    background-position: center center;
+}
+
+.cherry div, .tangerine div{
+    padding: 70px 150px;
+}
+
+.testimonials{
+    height: 170vh;
+}
+
+.testimonials h1{
+    padding: 40px 0 40px 0;
+}
+
+.people{
+    flex-direction: column;
+    align-items: center;
+}
+
+.people > div{
+    height: 50vh;
+    width: 70vh;
+}
+
+.people > div img{
+    width: 150px;
+    height: 150px;
+}
+
+.images > *{
+    flex: 1 1 50%;
+}
+
+.footer div{
+    width: 35%;
+}
+
+.footer div img{
+    width: 50px;
+    height: 50px;
+}

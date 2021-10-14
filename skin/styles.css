@@ -1,0 +1,7 @@
+@import url(../root/root.css);
+
+@import url(../global/base.css);
+
+@import url(../devices/mobile_1080px.css) (max-width: 1080px);
+
+@import url(../devices/mobile_760px.css) (max-width: 760px);
