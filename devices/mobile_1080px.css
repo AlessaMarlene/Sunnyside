@@ -19,7 +19,7 @@
 .items{
     display: none;
     height: 100%;
-    background-color: var(--bs-blue);
+    background-color:steelblue;
 }
 
 .items ul{
